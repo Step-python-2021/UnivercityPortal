@@ -1,7 +1,8 @@
-from flask import Flask
+from config import app
+from views.home_controller import HomeController
 
-
-app = Flask(__name__)
 
 if __name__ == '__main__':
+    hc = HomeController()
+
     app.run(debug=True)
