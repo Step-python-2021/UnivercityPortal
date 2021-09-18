@@ -6,5 +6,5 @@ class FacultiesController(object):
 
     @staticmethod
     @app.route('/faculties/list')
-    def list():
+    def faculties_list():
         return render_template('faculties/list.html')
