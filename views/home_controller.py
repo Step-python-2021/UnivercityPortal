@@ -10,6 +10,6 @@ class HomeController(object):
         return render_template('home/index.html')
 
     @staticmethod
-    @app.route('/contact')
-    def index():
-        return render_template('home/contact.html')
+    @app.route('/contacts')
+    def contacts():
+        return render_template('home/contacts.html')
